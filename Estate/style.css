@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    margin-top: 20px;
+    height: 7vh;
+    /* border: 3px solid black; */
+}
+ nav ul li{
+    display: inline-block;
+}
+nav ul{
+    text-align: end;
+}
+nav ul li a{
+    color: black;
+    padding: 6px;
+ }
+nav ul li a:hover{
+    color: blue;
+    font-size:x-large ;
+    cursor: pointer;
+   }
+
+.logo{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.logo .imgup{
+    width: 15%;
+    margin-top: -30px;
+}
+.burn{
+    position: absolute;
+}
+.vivid{
+   /* position: absolute; */
+   /* left: 30%;
+    */
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+.burn .vide{
+    width: 300px;
+    position: absolute;
+    bottom: 40%;
+    right: 45%;
+}
+.burn .vidi{
+    position: absolute;
+    border: 2px solid black;
+    width: 80px;
+}
+.wrapper{
+    width: 100%;
+    height: 90vh;
+}
+.wrapper .vid1{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;   
+    object-position: center;
+}
+section{
+    height:90vh ;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    
+}
+section .first{
+    width: 60%;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;   
+}
+section .second{
+    width: 40%;
+    margin: auto;  
+}
+
+
+.second .top{
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.second .top:hover{
+    transform: translatex(-20%);
+}
+/* .second .bottom{
+    width: 60%;
+    border: 1px solid black;
+} */
+.bottom .img1{
+    width: 100%;
+    /* transform: translateY(50%); */
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.img1:hover{
+    transform: translateY(-5%);
+}
+
+main{
+    margin-top: 30px;
+    width: 100%;
+    height: 50vh;
+}
+
+main .number{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    width: 100%;
+    /* height: 175vh; */
+}
+
+.container .write-up{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    /* padding:40px; */
+}
+.write-up p, .write-down p{
+    line-height: 25px;
+    word-spacing: 10px;
+    font-size: 20px;
+}
+.container .img2{
+    margin-left: 20px;
+    height: 400px;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.container .img2:hover{
+    transform: translateX(48%);
+}
+
+.write-down{
+    width: 50%;
+    height: 65vh;
+    margin: auto;
+    text-align: justify;
+}
+.write-down .img3{
+    height: 150px;
+    width: 400px;
+}
+.blog1{
+    width: 100%;
+    height: 170vh;
+    background-color: rgb(5, 5, 38);
+    color: white;
+}
+
+.upblog{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.upblog .text{
+    padding: 30px;
+}
+.text h2{
+    font-weight: lighter;
+    font-size: 35px;
+}
+.text p{
+    font-size: 20px;
+}
+.text button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(177, 154, 154);
+    border-radius: 2px;
+    color: white;
+    border-radius: 20px;
+    transition-property:transform ;
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+}
+.text button:hover{
+    color: rgb(5, 5, 38);
+    background-color:white ;
+    transform: translateX(20px);
+    font-weight: bolder;
+    transition: 1.5s;
+}
+.upblog .img4{
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 20px; 
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+.upblog .img4:hover{
+    transform: translatey(-18%); 
+}
+.vid2{
+    width: 92%;
+    height: 80vh;
+    object-fit: cover;
+    margin-left:40px ;
+}
+.blog1 .below{
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+.below h1{
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.blog2{
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(5, 5, 38); */
+}
+.blog2 .test{
+    margin-top: 20px;
+    text-align: center;
+}
+.downblog{
+    width: 100%;
+    /* height: 10vh; */
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    column-gap: 10px;
+
+}
+.downblogtext{
+    padding: 10px;
+    text-align: justify;
+}
+.downblogtext h4{
+    text-align: center;
+    padding: 5px 0px;
+}
+.blogss{
+    height: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(235, 229, 229);
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-property: transform;
+    transition-duration: 2s;
+    
+}
+.blogss:hover{
+    transform: translateY(15px);
+
+}
+.blogss img{
+    width: 100%;
+}
+.foot{
+    margin-top: -90px;
+    background-color: rgb(5, 5, 38);
+    height: 15vh;
+    color: white;
+    font-size: 20px;
+    text-align: end;
+    
+}
+.foot h4, .foot h3, .foot h5{
+    margin-right: 25px ;
+}
+
+{
+
+.................................................
+
+}
+@media(max-width:950px){
+    nav{
+        display: grid;
+        grid-template-columns: auto;
+        /* background-color: white; */
+        margin-top: 0px;
+        height: 35vh;
+        background-color: rgb(5, 5, 38);
+        color: white;
+    }
+    .logo .imgup{
+        width: 25%;
+        height: 70%;
+        margin-top: 0px;
+        margin-left: -10px;
+    }
+    nav ul li{
+        display: block;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    nav ul li a{
+        color: white;
+        padding: 6px;
+     }
+     nav ul li a:hover{
+        color: white;
+        font-size:x-large ;
+        cursor: pointer;
+       }
+     .logo h2{
+        position: absolute;
+        right: 40px;
+        top: -10px;
+    } 
+    .logo h2{
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .wrapper{
+        width: 100%;
+        height: 50%;
+    }
+    .wrapper .vid1{
+        width: 90%;
+        height: 50%;
+        margin-left: 30px;
+    }
+    section .first{
+        width: 90%;
+        font-size: 40px;
+        margin-left: 20px;
+        margin-bottom: 30px;   
+    }
+    section .second{
+        width: 90%;
+        margin: auto;  
+    }
+    main{
+        margin-top: 100px;
+        width: 100%;
+        height: 50vh;
+    }
+    .container .img2{
+        margin-left: 0px;
+        /* height: 400px; */
+        width: 95%;
+        height: 50%;
+        margin: auto;
+    }
+    .container .write-up{
+        width: 90%;
+        text-align: justify;
+        margin: auto;
+        /* padding:40px; */
+    }
+    .write-down{
+        width: 90%;
+        height: 80vh;
+        margin: auto;
+        text-align: justify;
+    }
+    .write-down .img3{
+        height: 150px;
+        width: 95%;
+    }
+    .upblog{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .blog1{
+        width: 100%;
+        height: 200vh;
+        background-color: rgb(5, 5, 38);
+        color: white;
+    }
+    .vid2{
+        width: 80%;
+        height: 40%;
+        object-fit: cover;
+        margin-left:40px ;
+    }
+    .blog1 .below{
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .downblog{
+        width: 95%;
+        /* height: auto; */
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 0px;
+    }
+    .foot{
+        margin-top: 230%;
+        background-color: rgb(5, 5, 38);
+        height: 15vh;
+        color: white;
+        font-size: 20px;
+        text-align: end;
+        
+    }
+}
